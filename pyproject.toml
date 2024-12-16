@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-learn"
+version = "0.1.0"
+description = ""
+authors = ["Game <jeerasakananta@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.3.25"
+langchain-chroma = "^0.1.4"
+langchain-openai = "^0.2.12"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
